@@ -7,9 +7,14 @@ function App() {
   let done : boolean = true;
   let trial : number | string =  "deneme";
 
+type Obj = {
+   name : string,
+   age : number,
+   done? : boolean
 
+}
   
-  let obj = {
+  let obj: Obj = {
     name: "Deniz",
     age: 10,
     done: true
