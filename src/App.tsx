@@ -1,5 +1,7 @@
 
 import './App.css';
+import {hello,topla,cikar,title_,user} from './my-module';
+import fetch from "node-fetch";
 
 function App() {
   let name : string = "Erkut";
@@ -22,6 +24,13 @@ type Obj = {
 
   var slugify = require('slugify');
   const title = slugify("erkut adem sakar", "***");
+
+console.log(topla(3,5));
+console.log(cikar(4,2));
+console.log(title_);
+console.log(user);
+
+hello("Erkut");
 
   return (
     
