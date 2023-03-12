@@ -20,11 +20,17 @@ type Obj = {
     done: true
   }
 
+  var slugify = require('slugify');
+  const title = slugify("erkut adem sakar", "***");
+
   return (
+    
+
     <div className="App">
-     {name + " _ " + age }
+     {name + " _ " + age + " " + title }
     </div>
   );
 }
 
 export default App;
+
