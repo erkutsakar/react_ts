@@ -12,5 +12,5 @@ async function getData(){
     const data = await (await fetch("https://jsonplaceholder.typicode.com/posts/1")).json();
     console.log(data);
 }
-
+console.log("test");
 getData();
